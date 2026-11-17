@@ -1,0 +1,14 @@
+# Libraries tested by the audit, pinned to the versions in results/results.json.
+# The tests need only pytest.
+beziers==0.6.0
+fonttools==4.68.0
+inkex==1.4.1
+kurbopy==0.13.1
+matplotlib==3.11.2
+pycairo==1.29.2
+pyobjc-framework-Quartz==13.0; sys_platform == "darwin"
+PySide6-Essentials==6.12.0
+skia-python==144.1
+svg.path==7.1
+svgelements==1.9.6
+svgpathtools==1.8.0

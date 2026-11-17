@@ -1,0 +1,22 @@
+{
+  "name": "bezier-bbox-audit",
+  "private": true,
+  "description": "JavaScript libraries tested by the audit, pinned to the versions in results/results.json.",
+  "dependencies": {
+    "@antv/g-math": "3.1.0",
+    "@thi.ng/geom-splines": "2.3.95",
+    "bezier-js": "6.1.4",
+    "fabric": "7.4.0",
+    "jsdom": "31.0.1",
+    "konva": "10.9.1",
+    "opentype.js": "2.0.0",
+    "paper": "0.17.0",
+    "pdfjs-dist": "6.5.438",
+    "raphael": "2.3.0",
+    "snapsvg": "0.5.1",
+    "svg-path-bbox": "2.1.0",
+    "svg-path-commander": "2.3.5",
+    "two.js": "0.8.24",
+    "zrender": "6.1.0"
+  }
+}

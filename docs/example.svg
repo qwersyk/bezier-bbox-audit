@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 412" width="600" height="412" role="img" aria-label="One curve with its exact bounding box and the boxes returned by five libraries">
+<style>
+  text { font: 13px -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #57606a; }
+  .curve { fill: none; stroke: #24292f; stroke-width: 1.6; stroke-linecap: round; }
+  .box { fill: #0969da; fill-opacity: 0.10; stroke: #0969da; stroke-width: 1.2; }
+  .wrong { fill: #cf222e; fill-opacity: 0.10; stroke: #cf222e; }
+  @media (prefers-color-scheme: dark) {
+    text { fill: #8b949e; }
+    .curve { stroke: #e6edf3; }
+    .box { fill: #58a6ff; stroke: #58a6ff; }
+    .wrong { fill: #f85149; stroke: #f85149; }
+  }
+</style>
+<g transform="translate(0 0)">
+<rect class="box" x="46.2" y="16.0" width="107.6" height="148.0"/>
+<path class="curve" d="M 46.2 164.0 Q 243.5 -33.3 79.1 32.4"/>
+<text x="100.0" y="192" text-anchor="middle">exact</text>
+</g>
+<g transform="translate(200 0)">
+<rect class="box wrong" x="46.2" y="17.8" width="102.3" height="146.2"/>
+<path class="curve" d="M 46.2 164.0 Q 243.5 -33.3 79.1 32.4"/>
+<text x="100.0" y="192" text-anchor="middle">Qt 6.12.0</text>
+</g>
+<g transform="translate(400 0)">
+<rect class="box wrong" x="46.2" y="17.8" width="102.3" height="146.2"/>
+<path class="curve" d="M 46.2 164.0 Q 243.5 -33.3 79.1 32.4"/>
+<text x="100.0" y="192" text-anchor="middle">PDF.js 6.5.438</text>
+</g>
+<g transform="translate(0 206)">
+<rect class="box wrong" x="46.2" y="32.4" width="106.9" height="131.6"/>
+<path class="curve" d="M 46.2 164.0 Q 243.5 -33.3 79.1 32.4"/>
+<text x="100.0" y="192" text-anchor="middle">fabric.js 7.4.0</text>
+</g>
+<g transform="translate(200 206)">
+<rect class="box wrong" x="46.2" y="17.8" width="91.4" height="146.2"/>
+<path class="curve" d="M 46.2 164.0 Q 243.5 -33.3 79.1 32.4"/>
+<text x="100.0" y="192" text-anchor="middle">Bezier.js 6.1.4</text>
+</g>
+<g transform="translate(400 206)">
+<rect class="box wrong" x="46.2" y="16.0" width="92.5" height="148.0"/>
+<path class="curve" d="M 46.2 164.0 Q 243.5 -33.3 79.1 32.4"/>
+<text x="100.0" y="192" text-anchor="middle">fontTools 4.68.0</text>
+</g>
+</svg>
